@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/578899261509468160/1159106978342252544/image-removebg-preview_1.png?ex=651eadfe&is=651d5c7e&hm=5682110a317f580248614cf9094ee83a389f7453d9d1fc639b399ad2d1209210&">
+    <title>HCI ASSIGNMENT-02</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="header">BINUSMAYA SATISFACTORY FORM</h1>
+    </header>
+
+    <table class="table" border="0">
+        <form>
+
+            <tr class="binusinfo">
+                <td colspan="2">
+                <fieldset>
+                    <legend>BINUSIAN INFORMATION:</legend>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Kevin"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Jonathan"><br><br>
+                    <label for="email">Binus Email:</label>
+                    <input type="email" id="email" name="email" placeholder="xxxx@binus.ac.id"><br><br>
+                    <label for="NIM">NIM:</label>
+                    <input type="number" id="NIM" name="NIM" placeholder="XXXXXXXXXXX"><br><br>
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                   </fieldset>
+                   </td>
+            </tr>
+          
+
+
+            <tr>
+                <td colspan="2">
+                <fieldset>
+                    <legend>How Satisfied Are You In BINUSMAYA?</legend>
+                    <div class="questions">
+                    <p>1. Are You Happy With The Current State Of BINUSMAYA?</p>
+                    <input type="radio" name="a1">
+                    <label>Very Satisfied 😍</label><br>
+                    <input type="radio" name="a1">
+                    <label>Satisfied 😊</label><br>
+                    <input type="radio" name="a1">
+                    <label>Not Satisfied 😒</label><br>
+                    <input type="radio" name="a1">
+                    <label>Very  Unsatisfied 😠</label><br>
+
+                    <p>2. What Could Be Improved In BINUSMAYA?</p>
+                    <input type="checkbox"><label>User Interface (UI)</label><br>
+                    <input type="checkbox"><label>Content</label> <br>
+                    <input type="checkbox"><label>Performance</label><br>
+
+                    <p>3. How satisfied are you with the accessibility and ease of navigation on BINUSMAYA?</p>
+                    <input type="radio" name="a3">
+                    <label>Very Satisfied 😍</label><br>
+                    <input type="radio" name="a3">
+                    <label>Satisfied 😊</label><br>
+                    <input type="radio" name="a3">
+                    <label>Not Satisfied 😒</label><br>
+                    <input type="radio" name="a3">
+                    <label>Very  Unsatisfied 😠</label><br>
+
+                    </div>
+
+                    <div class="questions">
+                        <p>4. How satisfied are you with the response time and support provided by the BINUSMAYA helpdesk or technical support team?</p>
+                    <input type="radio" name="a4">
+                    <label>Very Satisfied 😍</label><br>
+                    <input type="radio" name="a4">
+                    <label>Satisfied 😊</label><br>
+                    <input type="radio" name="a4">
+                    <label>Not Satisfied 😒</label><br>
+                    <input type="radio" name="a4">
+                    <label>Very  Unsatisfied 😠</label><br>
+
+                    <p>5. How would you rate the overall user interface (UI) and design of BINUSMAYA in terms of user-friendliness and aesthetics?</p>
+                    <input type="radio" name="a5">
+                    <label>Very Satisfied 😍</label><br>
+                    <input type="radio" name="a5">
+                    <label>Satisfied 😊</label><br>
+                    <input type="radio" name="a5">
+                    <label>Not Satisfied 😒</label><br>
+                    <input type="radio" name="a5">
+                    <label>Very  Unsatisfied 😠</label><br>
+
+                    <p>6. How do you feel about the speed and performance of BINUSMAYA, especially during peak usage times?</p>
+                    <input type="radio" name="a6">
+                    <label>Very Satisfied 😍</label><br>
+                    <input type="radio" name="a6">
+                    <label>Satisfied 😊</label><br>
+                    <input type="radio" name="a6">
+                    <label>Not Satisfied 😒</label><br>
+                    <input type="radio" name="a6">
+                    <label>Very  Unsatisfied 😠</label><br>
+                    </div>
+                </fieldset>
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">
+                    <fieldset class="suggestions">
+                        <legend>Suggestions</legend>
+                        <p>Do You Have Any Suggestions Or Comments For BINUSMAYA?</p>
+                        <textarea required id="q3" rows="10" cols="100"style="resize: none;"></textarea>
+                    </fieldset>
+                </td>
+
+                <td>
+                    <fieldset>
+                        <legend>Rating</legend>
+                        <p>Rate BINUSMAYA Out of 5:</p>
+                        <label><input type="radio" id="r1" name="rating"> 5 ⭐</label><br>
+                        <label><input type="radio" id="r2" name="rating"> 4 ⭐</label><br>
+                        <label><input type="radio" id="r3" name="rating"> 3 ⭐</label><br>
+                        <label><input type="radio" id="r4" name="rating"> 2 ⭐</label><br>
+                        <label><input type="radio" id="r5" name="rating"> 1 ⭐</label><br>
+                    </fieldset>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" class="submit">
+                </td>
+            </tr>
+
+            </form>
+        </table>
+</body>
+</html>
