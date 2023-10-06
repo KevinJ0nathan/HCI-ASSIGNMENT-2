@@ -49,22 +49,4 @@ input[type="submit"]:hover {
     background-color: #2980b9; 
 }
 
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
 
-    .table {
-        background-color: white;
-        border-radius: 5px;
-        margin: 2% 5%; 
-        max-width: 90%; 
-        padding: 10px; 
-        opacity: 90%;
-    }
-
- 
-    .table td {
-        text-align: center;
-    }
-}
