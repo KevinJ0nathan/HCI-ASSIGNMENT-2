@@ -49,3 +49,21 @@ input[type="submit"]:hover {
     background-color: #2980b9; 
 }
 
+@media (min-width: 769px) and (max-width: 992px) {
+    body {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 993px) {
+    body {
+        font-size: 20px;
+    }
+}
